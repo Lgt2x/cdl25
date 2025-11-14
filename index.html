@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Simulation numérique et logiciel libre</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/theme/white.css" />
+    <link rel="stylesheet" href="custom.css" />
+</head>
+
+<body>
+    <div class="slides-container reveal">
+        <div class="slides">
+            <section data-markdown="content.md" data-separator="^---$" data-separator-vertical="^\*\*\*$"></section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.6.0/plugin/mermaid/mermaid.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            showSlideNumber: 'all',
+            slideNumber: true,
+            navigationMode: 'linear',
+            plugins: [RevealMarkdown, RevealMermaid],
+        });
+    </script>
+</body>
+
+</html>
