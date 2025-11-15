@@ -105,6 +105,10 @@ Note: https://www.aero-ce.com/nos-moyens
 - Basé sur les kernels OpenCASCADE
 - v1.0.0 sortie il y a 1 an
 
+
+<img class="r-stretch" src="assets/freecad.png" />
+
+
 <p class="credits">License: LGPL</p>
 
 ***
@@ -125,6 +129,9 @@ Extrusion de la pièce
 - Création de maillage raffiné pour la simulation
 - Pont depuis FreeCAD
 - Module IHM
+
+<img src="assets/gmsh.png" />
+
 
 <p class="credits">License: GPLv2</p>
 
@@ -152,7 +159,7 @@ Définition des méta-données de simulation
 
 ![boundaries](assets/boundaries.png)
 
-Définition des conditions au limites
+Définition des conditions aux limites
 
 ***
 
@@ -168,7 +175,8 @@ Lancement et suivi en direct
 - Facilement extensible
 - Basé sur la bibliothèque VTK
 
-<p class="credits">Disclaimer: je travaille pour l'éditeur de ParaView</p>
+<img src="assets/paraview_logo.png" />
+
 <p class="credits">License: BSD-3</p>
 
 ***
